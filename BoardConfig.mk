@@ -14,6 +14,7 @@ include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := vili
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
 # Camera
 MALLOC_SVELTE_FOR_LIBC32 := true
